@@ -230,7 +230,7 @@ body {
 }
 
 nav {
-  margin-right: 90px;
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -257,7 +257,7 @@ nav {
 }
 
 nav {
-  margin-right: 20px;
+  width: 100%;
 }
 
 }
@@ -295,7 +295,7 @@ nav {
 
   nav {
     text-align: center;
-    width: 630px;
+    width: 100%;
     padding: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -303,7 +303,8 @@ nav {
   }
  
   nav a {
-    width: 30%;
+  padding: 0;
+  margin: 0;
   }
 }
 
